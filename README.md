@@ -31,19 +31,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
+    It is the Document Object Model.  It allows the page to be influenced by Javascript.  It contains a document with a tree where each branch is a node.  Each node contains objects.  
 
 2. What is an event?
+    an event is something that can take place inside of the DOM.  Events are triggered by the user and can be things such as a click, scroll, keypress, etc.
 
 3. What is an event listener?
+    exactly what it sounds like - it listens for events.  When those events occur, it triggers a function and makes something else happen on the page.
 
 4. Why would we convert a NodeList into an Array?
+    A node is basically an array.  But it is not.  It is a list of items that only have access to a few of the array methods, such as forEach().  Converting it to an array will give it access to ALL of the array methods.
 
 5. What is a component?
+    IIRC, it is a way of grouping HTML, CSS & JS together into one item to make it react a certain way.
 
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
+* [x] Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
 * [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 * [ ] You are now ready to build this project with your preferred IDE
 
